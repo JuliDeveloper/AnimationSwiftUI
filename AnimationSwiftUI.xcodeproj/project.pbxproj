@@ -11,6 +11,8 @@
 		25E75A4E28E3345D0099FD79 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A4D28E3345D0099FD79 /* AnimationView.swift */; };
 		25E75A5028E3345E0099FD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E75A4F28E3345E0099FD79 /* Assets.xcassets */; };
 		25E75A5328E3345E0099FD79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25E75A5228E3345E0099FD79 /* Preview Assets.xcassets */; };
+		25E75A5A28E338400099FD79 /* CustomSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A5928E338400099FD79 /* CustomSwitch.swift */; };
+		25E75A5C28E33BFB0099FD79 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A5B28E33BFB0099FD79 /* CustomSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		25E75A4D28E3345D0099FD79 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		25E75A4F28E3345E0099FD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25E75A5228E3345E0099FD79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		25E75A5928E338400099FD79 /* CustomSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSwitch.swift; sourceTree = "<group>"; };
+		25E75A5B28E33BFB0099FD79 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				25E75A4B28E3345D0099FD79 /* AnimationSwiftUIApp.swift */,
 				25E75A4D28E3345D0099FD79 /* AnimationView.swift */,
+				25E75A5B28E33BFB0099FD79 /* CustomSlider.swift */,
+				25E75A5928E338400099FD79 /* CustomSwitch.swift */,
 				25E75A4F28E3345E0099FD79 /* Assets.xcassets */,
 				25E75A5128E3345E0099FD79 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				25E75A4E28E3345D0099FD79 /* AnimationView.swift in Sources */,
 				25E75A4C28E3345D0099FD79 /* AnimationSwiftUIApp.swift in Sources */,
+				25E75A5A28E338400099FD79 /* CustomSwitch.swift in Sources */,
+				25E75A5C28E33BFB0099FD79 /* CustomSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
