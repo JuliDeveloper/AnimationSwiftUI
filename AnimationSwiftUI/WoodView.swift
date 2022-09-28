@@ -28,12 +28,13 @@ struct WoodView: View {
                 path.addLine(to: CGPoint(x: zero, y: height - 30))
             }
         }
+        .frame(width: 170, height: 100)
+        .foregroundColor(Color(red: 100/255, green: 64/255, blue: 15/255))
     }
 }
 
 struct WoodView_Previews: PreviewProvider {
     static var previews: some View {
         WoodView()
-            .frame(width: 200, height: 100)
     }
 }
