@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct FireView: View {
+    @Binding var value: Double
+    
     var body: some View {
         GeometryReader { geometry in
             
@@ -23,12 +25,14 @@ struct FireView: View {
                 path.addQuadCurve(to: CGPoint(x: middle, y: zero), control: CGPoint(x: zero, y: height))
             }
         }
+        .scaleEffect(value * 2)
+        .animation(.linear.repeatForever(autoreverses: true), value: value)
     }
 }
 
 struct FireView_Previews: PreviewProvider {
     static var previews: some View {
-        FireView()
+        FireView(value: .constant(0.3))
             .frame(width: 200, height: 200)
     }
 }
