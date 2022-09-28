@@ -61,8 +61,8 @@
 			children = (
 				25E75A4B28E3345D0099FD79 /* AnimationSwiftUIApp.swift */,
 				25E75A4D28E3345D0099FD79 /* AnimationView.swift */,
-				25E75A6128E461420099FD79 /* WoodView.swift */,
 				25E75A5F28E45B180099FD79 /* FireView.swift */,
+				25E75A6128E461420099FD79 /* WoodView.swift */,
 				25E75A5B28E33BFB0099FD79 /* CustomSlider.swift */,
 				25E75A5928E338400099FD79 /* CustomSwitch.swift */,
 				25E75A4F28E3345E0099FD79 /* Assets.xcassets */,

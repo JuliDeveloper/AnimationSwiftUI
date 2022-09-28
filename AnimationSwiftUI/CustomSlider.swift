@@ -9,11 +9,11 @@ import SwiftUI
 
 struct CustomSlider: View {
     
-    @State var value = 0.3
+    @Binding var value: Double
     
     var body: some View {
         HStack {
-            Text("0")
+            Text("1")
                 .foregroundColor(.white)
             Slider(value: $value, in: 0.1...1.0)
                 .tint(Color(red: 241/255, green: 92/255, blue: 70/255, opacity: value))
@@ -25,6 +25,6 @@ struct CustomSlider: View {
 
 struct CustomSlider_Previews: PreviewProvider {
     static var previews: some View {
-        CustomSlider()
+        CustomSlider(value: .constant(0.3))
     }
 }
