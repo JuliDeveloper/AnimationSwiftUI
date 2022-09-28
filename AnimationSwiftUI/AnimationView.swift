@@ -14,37 +14,33 @@ struct AnimationView: View {
     
     var body: some View {
         ZStack {
-            Color(red: 42/255, green: 42/255, blue: 55/255)
+            Color(red: 42/255,
+                  green: 42/255,
+                  blue: 55/255)
                 .ignoresSafeArea()
             
             VStack(spacing: 40) {
-                
                 Spacer()
-                
                 VStack {
                     ZStack {
                         if isHidden {
-                            FireView()
+                            FireView(value: $value)
                                 .frame(width: 50, height: 50)
-                                .foregroundColor(Color(red: 241/255, green: 92/255, blue: 70/255))
-                                .scaleEffect(value * 2)
-                                .animation(.linear.repeatForever(autoreverses: true))
-
-                            FireView()
+                                .foregroundColor(Color(red: 241/255,
+                                                       green: 92/255,
+                                                       blue: 70/255))
+                            FireView(value: $value)
                                 .frame(width: 20, height: 30)
-                                .foregroundColor(Color(red: 250/255, green: 158/255, blue: 0))
-                                .scaleEffect(value * 2)
-                                .animation(.linear.repeatForever(autoreverses: true))
+                                .foregroundColor(Color(red: 250/255,
+                                                       green: 158/255,
+                                                       blue: 0))
                         }
                     }
-
+                    StoveView()
                     
-                    WoodView()
-                        .frame(width: 170, height: 100)
-                        .foregroundColor(Color(red: 100/255, green: 64/255, blue: 15/255))
+//Как вариант могут быть бревна
+//                    WoodView()
                 }
-                
-                
                 CustomSwitch(isOn: $isHidden)
                 CustomSlider(value: $value, isHidden: $isHidden)
             }
