@@ -17,7 +17,7 @@ struct CustomSlider: View {
             Text("1")
                 .foregroundColor(.white)
             Slider(value: $value, in: 0.1...1.0)
-                .tint(Color(red: 241/255, green: 92/255, blue: 70/255, opacity: value))
+                .tint(.customRed.opacity(value))
                 .onChange(of: isHidden) { newValue in
                     if newValue == false {
                         value = 0.1

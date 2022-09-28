@@ -14,9 +14,7 @@ struct AnimationView: View {
     
     var body: some View {
         ZStack {
-            Color(red: 42/255,
-                  green: 42/255,
-                  blue: 55/255)
+            Color.customDarkBlue
                 .ignoresSafeArea()
             
             VStack(spacing: 40) {
@@ -24,13 +22,9 @@ struct AnimationView: View {
                 VStack {
                     ZStack {
                         if isHidden {
-                            FireView(value: $value, color: Color(red: 241/255,
-                                                                 green: 92/255,
-                                                                 blue: 70/255), radius: 50)
+                            FireView(value: $value, color: .customRed, radius: 50)
                                 .frame(width: 50, height: 50)
-                            FireView(value: $value, color: Color(red: 250/255,
-                                                                 green: 158/255,
-                                                                 blue: 0), radius: 20)
+                            FireView(value: $value, color: .customOrange, radius: 20)
                                 .frame(width: 20, height: 30)
                         }
                     }

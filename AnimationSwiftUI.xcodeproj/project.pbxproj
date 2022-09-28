@@ -16,6 +16,7 @@
 		25E75A6028E45B180099FD79 /* FireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A5F28E45B180099FD79 /* FireView.swift */; };
 		25E75A6228E461420099FD79 /* WoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A6128E461420099FD79 /* WoodView.swift */; };
 		25E75A6428E48D330099FD79 /* StoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A6328E48D330099FD79 /* StoveView.swift */; };
+		25E75A6628E4A7FF0099FD79 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E75A6528E4A7FF0099FD79 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		25E75A5F28E45B180099FD79 /* FireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireView.swift; sourceTree = "<group>"; };
 		25E75A6128E461420099FD79 /* WoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodView.swift; sourceTree = "<group>"; };
 		25E75A6328E48D330099FD79 /* StoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoveView.swift; sourceTree = "<group>"; };
+		25E75A6528E4A7FF0099FD79 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				25E75A6128E461420099FD79 /* WoodView.swift */,
 				25E75A5B28E33BFB0099FD79 /* CustomSlider.swift */,
 				25E75A5928E338400099FD79 /* CustomSwitch.swift */,
+				25E75A6528E4A7FF0099FD79 /* Colors.swift */,
 				25E75A4F28E3345E0099FD79 /* Assets.xcassets */,
 				25E75A5128E3345E0099FD79 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25E75A4E28E3345D0099FD79 /* AnimationView.swift in Sources */,
+				25E75A6628E4A7FF0099FD79 /* Colors.swift in Sources */,
 				25E75A6228E461420099FD79 /* WoodView.swift in Sources */,
 				25E75A4C28E3345D0099FD79 /* AnimationSwiftUIApp.swift in Sources */,
 				25E75A5A28E338400099FD79 /* CustomSwitch.swift in Sources */,

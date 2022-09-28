@@ -29,7 +29,7 @@ struct WoodView: View {
             }
         }
         .frame(width: 170, height: 100)
-        .foregroundColor(Color(red: 100/255, green: 64/255, blue: 15/255))
+        .foregroundColor(.customBrown)
     }
 }
 

@@ -50,7 +50,7 @@ struct StoveView: View {
             }
         }
         .frame(width: 200, height: 100)
-        .foregroundColor(Color(red: 96/255, green: 110/255, blue: 140/255))
+        .foregroundColor(.customLightBlue)
     }
 }
 
