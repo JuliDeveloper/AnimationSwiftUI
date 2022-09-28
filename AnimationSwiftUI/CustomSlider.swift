@@ -10,6 +10,7 @@ import SwiftUI
 struct CustomSlider: View {
     
     @Binding var value: Double
+    @Binding var isHidden: Bool
     
     var body: some View {
         HStack {
@@ -17,6 +18,11 @@ struct CustomSlider: View {
                 .foregroundColor(.white)
             Slider(value: $value, in: 0.1...1.0)
                 .tint(Color(red: 241/255, green: 92/255, blue: 70/255, opacity: value))
+                .onChange(of: isHidden) { newValue in
+                    if newValue == false {
+                        value = 0.1
+                    }
+                }
             Text("10")
                 .foregroundColor(.white)
         }
@@ -25,6 +31,6 @@ struct CustomSlider: View {
 
 struct CustomSlider_Previews: PreviewProvider {
     static var previews: some View {
-        CustomSlider(value: .constant(0.3))
+        CustomSlider(value: .constant(0.3), isHidden: .constant(true))
     }
 }
