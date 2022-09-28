@@ -29,11 +29,17 @@ struct AnimationView: View {
                                 .foregroundColor(Color(red: 241/255,
                                                        green: 92/255,
                                                        blue: 70/255))
+                                .shadow(color: Color(red: 241/255,
+                                                     green: 92/255,
+                                                     blue: 70/255), radius: 50, x: 0, y: 0)
                             FireView(value: $value)
                                 .frame(width: 20, height: 30)
                                 .foregroundColor(Color(red: 250/255,
                                                        green: 158/255,
                                                        blue: 0))
+                                .shadow(color: Color(red: 250/255,
+                                                     green: 158/255,
+                                                     blue: 0), radius: 30, x: 0, y: 0)
                         }
                     }
                     StoveView()
