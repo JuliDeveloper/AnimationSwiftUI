@@ -13,7 +13,7 @@ struct CustomSwitch: View {
     
     var body: some View {
         Toggle(isOn: $isOn) {
-            Text(isOn ? "Вкл" : "Выкл")
+            Text(isOn ? "Выкл" : "Вкл")
                 .foregroundColor(.white)
         }
         .frame(width: 100, height: 100)
