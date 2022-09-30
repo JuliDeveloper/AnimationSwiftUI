@@ -9,8 +9,8 @@ import SwiftUI
 
 struct AnimationView: View {
     
-    @State var isHidden = false
-    @State var value = 0.1
+    @State private var isHidden = false
+    @State private var value = 0.1
     
     var body: some View {
         ZStack {
